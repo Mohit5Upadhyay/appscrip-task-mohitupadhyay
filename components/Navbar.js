@@ -1,25 +1,3 @@
-// import styles from '../styles/Navbar.module.css';
-
-// const Navbar = () => {
-//   return (
-//     <nav className={styles.navbar}>
-//       <div className={styles.logo}>Your Logo</div>
-//       <ul className={styles.navLinks}>
-//         <li><a href="#">Home</a></li>
-//         <li><a href="#">Shop</a></li>
-//         <li><a href="#">Categories</a></li>
-//         <li><a href="#">Contact Us</a></li>
-//       </ul>
-//       <div className={styles.navActions}>
-//         <input type="text" placeholder="Search..." className={styles.searchInput} />
-//         <button className={styles.cartButton}>Cart</button>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
 
 
 import { useState } from 'react';
