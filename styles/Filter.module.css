@@ -1,0 +1,126 @@
+/* .filterContainer {
+    padding: 20px;
+    background-color: #fdfcfcf6;
+    border-right: 1px solid #ddd;
+  }
+  
+  .filterSection {
+    margin-bottom: 20px;
+    color: rgba(44, 42, 42, 0.861);
+
+  }
+
+  .filterSection h2{
+    color: rgba(44, 42, 42, 0.861);
+  }
+  
+  .filterSection h3 {
+    margin-bottom: 10px;
+    color: rgba(44, 42, 42, 0.861);
+
+  }
+  
+  .priceRange {
+    width: 100%;
+  }
+  
+  .filterSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filterSection ul li {
+    margin-bottom: 10px;
+  }
+   */
+
+
+
+
+
+   .filterContainer {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    position: relative; /* Ensure position relative for proper positioning */
+  }
+  
+  /* Filter Toggle Button (hidden on desktop, shown on mobile) */
+  .filterToggleButton {
+    display: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  /* Filter Content */
+  .filterContent {
+    display: block;
+  }
+  
+  /* Hide Filter Content by default on mobile */
+  .showFilter {
+    display: block !important;
+  }
+  
+  /* Individual Filter Sections */
+  
+  .filterSection {
+    margin-bottom: 20px;
+    color: rgba(44, 42, 42, 0.861);
+
+  }
+
+  .filterSection h2{
+    color: rgba(44, 42, 42, 0.861);
+  }
+  
+  .filterSection h3 {
+    margin-bottom: 10px;
+    color: rgba(44, 42, 42, 0.861);
+
+  }
+  
+  .priceRange {
+    width: 100%;
+    
+  }
+  
+  .filterSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filterSection ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Media Query for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    /* Hide filter content initially */
+    .filterContent {
+      display: none;
+    }
+  
+    /* Show filter toggle button on mobile */
+    .filterToggleButton {
+      display: block;
+    }
+  
+    /* Filter should show up when toggle is active */
+    .showFilter {
+      display: block;
+    }
+  
+    /* Remove border on mobile for better appearance */
+    .filterContainer {
+      border-right: none;
+    }
+  }
+  

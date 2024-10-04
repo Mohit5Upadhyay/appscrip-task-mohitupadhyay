@@ -1,0 +1,152 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c2a2adc;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    
+  }
+
+  .navLinks li a:hover{
+    border-bottom: 2px solid #2c2a2adc;
+    transition: all  0. 5s ease-in-out ;
+  }
+  
+  .navActions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .searchInput {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white; 
+  }
+  
+  .cartButton {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .cartButton:hover{
+    scale: 1.1;
+  }
+   */
+
+
+
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c2a2adc;
+  }
+  
+  /* Navigation Links (Hide on Mobile) */
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Hide Menu by Default on Mobile */
+  .showMenu {
+    display: flex !important;
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .navActions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .searchInput {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cartButton {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Toggle Button (Hidden on Desktop, Shown on Mobile) */
+  .toggleButton {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(18, 17, 17);
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 768px) {
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      gap: 10px;
+    }
+  
+    .navActions {
+      display: none;
+    }
+  
+    .toggleButton {
+      display: block; /* Show the button on mobile */
+    }
+  
+    .showMenu {
+      display: flex;
+    }
+  }
+  
